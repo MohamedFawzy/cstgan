@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.4.0-91-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-12-12T19:22:26.233419",
+    "startedAt": "2021-12-12T19:22:24.164103",
+    "docker": null,
+    "gpu": "GeForce RTX 2070 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/mofawzy/.local/share/jupyter/runtime/kernel-1db21f3b-4f48-4452-92a4-9bfde8b80e95.json"
+    ],
+    "state": "running",
+    "program": "argpt2-ctrl.ipynb",
+    "root": "/mnt/research/research/csgan",
+    "host": "mofawzy",
+    "username": "mofawzy",
+    "executable": "/home/mofawzy/anaconda3/envs/csgan/bin/python"
+}

@@ -1,0 +1,434 @@
+2021-12-09 13:46:17,543 INFO    MainThread:80802 [internal.py:wandb_internal():90] W&B internal server running at pid: 80802, started at: 2021-12-09 13:46:17.543594
+2021-12-09 13:46:17,545 INFO    WriterThread:80802 [datastore.py:open_for_write():77] open: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/run-1qwwk859.wandb
+2021-12-09 13:46:17,545 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: check_version
+2021-12-09 13:46:17,546 DEBUG   SenderThread:80802 [sender.py:send():238] send: header
+2021-12-09 13:46:17,546 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: check_version
+2021-12-09 13:46:17,991 DEBUG   SenderThread:80802 [sender.py:send():238] send: run
+2021-12-09 13:46:33,053 INFO    SenderThread:80802 [dir_watcher.py:__init__():169] watching files in: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files
+2021-12-09 13:46:33,053 INFO    SenderThread:80802 [sender.py:_start_run_threads():828] run started: 1qwwk859 with start time 1639043176
+2021-12-09 13:46:33,054 DEBUG   SenderThread:80802 [sender.py:send():238] send: summary
+2021-12-09 13:46:33,054 INFO    SenderThread:80802 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-09 13:46:33,055 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: run_start
+2021-12-09 13:46:33,853 DEBUG   HandlerThread:80802 [meta.py:__init__():40] meta init
+2021-12-09 13:46:33,853 DEBUG   HandlerThread:80802 [meta.py:__init__():54] meta init done
+2021-12-09 13:46:33,853 DEBUG   HandlerThread:80802 [meta.py:probe():214] probe
+2021-12-09 13:46:33,860 DEBUG   HandlerThread:80802 [git.py:repo():33] git repository is invalid
+2021-12-09 13:46:33,860 DEBUG   HandlerThread:80802 [meta.py:_save_pip():58] save pip
+2021-12-09 13:46:33,860 DEBUG   HandlerThread:80802 [meta.py:_save_pip():72] save pip done
+2021-12-09 13:46:33,860 DEBUG   HandlerThread:80802 [meta.py:_save_conda():79] save conda
+2021-12-09 13:46:34,055 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_created():217] file/dir created: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/conda-environment.yaml
+2021-12-09 13:46:34,061 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_created():217] file/dir created: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/requirements.txt
+2021-12-09 13:46:34,061 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_created():217] file/dir created: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-summary.json
+2021-12-09 13:46:35,954 DEBUG   HandlerThread:80802 [meta.py:_save_conda():89] save conda done
+2021-12-09 13:46:35,954 DEBUG   HandlerThread:80802 [meta.py:probe():252] probe done
+2021-12-09 13:46:35,956 DEBUG   SenderThread:80802 [sender.py:send():238] send: files
+2021-12-09 13:46:35,956 INFO    SenderThread:80802 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-12-09 13:46:35,961 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:46:35,961 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:46:35,969 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:35,969 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,006 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,006 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,054 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/conda-environment.yaml
+2021-12-09 13:46:36,054 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_created():217] file/dir created: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-metadata.json
+2021-12-09 13:46:36,054 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_created():217] file/dir created: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:46:36,244 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:36,501 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:36,501 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,530 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,530 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,531 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:36,531 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,573 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,573 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,574 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:36,574 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:36,650 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:36,650 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,705 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,705 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,705 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:36,792 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:36,792 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,830 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,830 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,830 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:36,887 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:36,887 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:36,956 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:36,956 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:36,956 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,116 INFO    Thread-11 :80802 [upload_job.py:push():137] Uploaded file /tmp/tmpi_b4j_s7wandb/22mude6r-wandb-metadata.json
+2021-12-09 13:46:37,458 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,458 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,487 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,488 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,488 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,488 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,516 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,516 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,516 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,516 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,577 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,577 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,644 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,644 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,645 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,658 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,658 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,672 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,676 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,677 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,732 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,732 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,802 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,802 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,802 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,825 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,825 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:37,925 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:37,925 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:37,926 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:37,969 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:37,969 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:38,051 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:38,051 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:38,052 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:38,052 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:38,075 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:38,075 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:38,076 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:38,076 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:51,246 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:46:51,247 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:46:51,580 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:51,580 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:51,657 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:51,657 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:51,657 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:51,695 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:51,695 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:51,795 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:51,795 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:51,795 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:51,799 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:51,799 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:51,824 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:51,824 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:51,824 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:51,909 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:51,909 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:51,959 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:51,959 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:51,960 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:46:51,960 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:46:51,982 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:46:51,982 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:46:51,983 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:46:51,983 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:02,064 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:06,578 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:47:06,579 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:47:10,067 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:11,632 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:11,632 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:11,684 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:11,688 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:11,688 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:11,689 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:11,689 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:11,711 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:11,711 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:11,712 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:11,778 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:11,778 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:11,841 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:11,841 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:11,842 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:14,669 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:14,669 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:14,686 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:14,688 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:14,688 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:14,694 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:14,694 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:14,712 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:14,712 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:14,713 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:16,068 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:18,069 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:20,069 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:21,926 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:47:21,926 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:47:22,070 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:24,071 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:26,071 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:28,072 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:30,072 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:32,073 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:33,830 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:33,830 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:33,887 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:33,887 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:33,887 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:34,073 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:35,058 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,058 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,114 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,114 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,115 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,115 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,138 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,138 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,138 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,139 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,249 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,249 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,286 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,306 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,306 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,330 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,330 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,431 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,431 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,431 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,435 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,435 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,459 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,461 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,461 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,506 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,507 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,585 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,585 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,585 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,598 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,598 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,613 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:35,622 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,622 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,683 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:35,683 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:35,745 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: resume
+2021-12-09 13:47:35,745 INFO    HandlerThread:80802 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-12-09 13:47:35,745 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:36,074 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:37,199 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:47:37,199 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:47:37,211 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: pause
+2021-12-09 13:47:37,211 INFO    HandlerThread:80802 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-12-09 13:47:37,480 DEBUG   SenderThread:80802 [sender.py:send():238] send: stats
+2021-12-09 13:47:39,075 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 13:47:52,483 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:47:52,485 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:48:07,789 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:48:07,790 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:48:23,182 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:48:23,183 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:48:38,640 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:48:38,641 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:48:53,936 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:48:53,937 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:49:09,241 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:49:09,241 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:49:24,625 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:49:24,625 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:49:39,988 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:49:39,988 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:49:55,290 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:49:55,291 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:50:10,593 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:50:10,593 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:50:25,890 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:50:25,891 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:50:41,186 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:50:41,186 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:50:56,462 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:50:56,463 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:51:11,806 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:51:11,806 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:51:27,293 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:51:27,293 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:51:42,557 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:51:42,557 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:51:57,853 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:51:57,854 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:52:13,147 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:52:13,147 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:52:28,566 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:52:28,567 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:52:43,869 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:52:43,870 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:52:59,164 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:52:59,164 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:53:14,441 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:53:14,442 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:53:29,739 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:53:29,739 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:53:45,048 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:53:45,048 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:54:00,488 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:54:00,488 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:54:15,785 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:54:15,785 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:54:31,101 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:54:31,101 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:54:46,579 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:54:46,580 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:55:02,032 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:55:02,033 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:55:17,593 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:55:17,593 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:55:32,889 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:55:32,890 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:55:48,213 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:55:48,213 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:56:03,721 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:56:03,721 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:56:19,035 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:56:19,035 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:56:34,368 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:56:34,368 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:56:49,734 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:56:49,734 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:57:05,022 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:57:05,023 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:57:20,340 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:57:20,340 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:57:35,718 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:57:35,719 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:57:51,020 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:57:51,020 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:58:06,332 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:58:06,333 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:58:21,642 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:58:21,643 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:58:36,970 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:58:36,971 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:58:52,258 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:58:52,258 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:59:07,555 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:59:07,555 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:59:22,896 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:59:22,897 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:59:38,198 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:59:38,198 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 13:59:53,550 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-09 13:59:53,551 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: stop_status
+2021-12-09 14:00:08,605 WARNING MainThread:80802 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-12-09 14:00:09,097 DEBUG   SenderThread:80802 [sender.py:send():238] send: telemetry
+2021-12-09 14:00:09,098 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,099 DEBUG   SenderThread:80802 [sender.py:send():238] send: exit
+2021-12-09 14:00:09,100 INFO    SenderThread:80802 [sender.py:send_exit():370] handling exit code: 0
+2021-12-09 14:00:09,100 INFO    SenderThread:80802 [sender.py:send_exit():372] handling runtime: 64
+2021-12-09 14:00:09,110 INFO    SenderThread:80802 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-09 14:00:09,110 INFO    SenderThread:80802 [sender.py:send_exit():382] send defer
+2021-12-09 14:00:09,111 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:09,112 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,112 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 0
+2021-12-09 14:00:09,113 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,113 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-12-09 14:00:09,113 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 1
+2021-12-09 14:00:09,114 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,114 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 1
+2021-12-09 14:00:09,115 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,115 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-12-09 14:00:09,115 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 2
+2021-12-09 14:00:09,116 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,116 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 2
+2021-12-09 14:00:09,117 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,117 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-12-09 14:00:09,117 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 3
+2021-12-09 14:00:09,118 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,118 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 3
+2021-12-09 14:00:09,119 DEBUG   SenderThread:80802 [sender.py:send():238] send: summary
+2021-12-09 14:00:09,120 INFO    SenderThread:80802 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-09 14:00:09,120 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,120 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-12-09 14:00:09,120 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 4
+2021-12-09 14:00:09,121 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,121 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 4
+2021-12-09 14:00:09,122 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,122 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-12-09 14:00:09,227 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,466 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 5
+2021-12-09 14:00:09,466 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:09,467 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,468 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 5
+2021-12-09 14:00:09,468 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,468 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-12-09 14:00:09,469 INFO    SenderThread:80802 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-12-09 14:00:09,535 INFO    Thread-8  :80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/config.yaml
+2021-12-09 14:00:09,536 INFO    SenderThread:80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-summary.json
+2021-12-09 14:00:09,536 INFO    SenderThread:80802 [dir_watcher.py:_on_file_modified():230] file/dir modified: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 14:00:09,537 INFO    SenderThread:80802 [dir_watcher.py:finish():313] scan: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files
+2021-12-09 14:00:09,538 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-summary.json wandb-summary.json
+2021-12-09 14:00:09,538 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-metadata.json wandb-metadata.json
+2021-12-09 14:00:09,539 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/conda-environment.yaml conda-environment.yaml
+2021-12-09 14:00:09,553 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/requirements.txt requirements.txt
+2021-12-09 14:00:09,553 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log output.log
+2021-12-09 14:00:09,560 INFO    SenderThread:80802 [dir_watcher.py:finish():327] scan save: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/config.yaml config.yaml
+2021-12-09 14:00:09,562 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 6
+2021-12-09 14:00:09,576 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,577 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:09,577 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 6
+2021-12-09 14:00:09,577 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:09,578 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:09,578 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-12-09 14:00:09,578 INFO    SenderThread:80802 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-09 14:00:09,688 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,688 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:09,793 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,793 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:09,896 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:09,897 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,005 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,005 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,107 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,108 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,213 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,214 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,316 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,316 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,418 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,419 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,522 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,523 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,567 INFO    Thread-48 :80802 [upload_job.py:push():137] Uploaded file /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/output.log
+2021-12-09 14:00:10,572 INFO    Thread-46 :80802 [upload_job.py:push():137] Uploaded file /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/conda-environment.yaml
+2021-12-09 14:00:10,576 INFO    Thread-47 :80802 [upload_job.py:push():137] Uploaded file /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/requirements.txt
+2021-12-09 14:00:10,626 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,626 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,655 INFO    Thread-49 :80802 [upload_job.py:push():137] Uploaded file /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/config.yaml
+2021-12-09 14:00:10,680 INFO    Thread-45 :80802 [upload_job.py:push():137] Uploaded file /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/files/wandb-summary.json
+2021-12-09 14:00:10,729 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,730 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,833 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:10,834 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:10,881 INFO    Thread-7  :80802 [sender.py:transition_state():395] send defer: 7
+2021-12-09 14:00:10,882 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:10,883 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 7
+2021-12-09 14:00:10,883 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:10,883 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-12-09 14:00:10,937 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-09 14:00:11,404 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 8
+2021-12-09 14:00:11,405 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: poll_exit
+2021-12-09 14:00:11,406 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:11,406 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 8
+2021-12-09 14:00:11,407 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:11,407 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-12-09 14:00:11,407 INFO    SenderThread:80802 [sender.py:transition_state():395] send defer: 9
+2021-12-09 14:00:11,409 DEBUG   HandlerThread:80802 [handler.py:handle_request():130] handle_request: defer
+2021-12-09 14:00:11,409 INFO    HandlerThread:80802 [handler.py:handle_request_defer():147] handle defer: 9
+2021-12-09 14:00:11,410 DEBUG   SenderThread:80802 [sender.py:send():238] send: final
+2021-12-09 14:00:11,410 DEBUG   SenderThread:80802 [sender.py:send():238] send: footer
+2021-12-09 14:00:11,410 DEBUG   SenderThread:80802 [sender.py:send_request():252] send_request: defer
+2021-12-09 14:00:11,411 INFO    SenderThread:80802 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-12-09 14:00:11,609 WARNING MainThread:80802 [internal.py:is_dead():367] Internal process exiting, parent pid 80774 disappeared
+2021-12-09 14:00:11,609 ERROR   MainThread:80802 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-12-09 14:00:12,410 INFO    WriterThread:80802 [datastore.py:close():281] close: /mnt/research/research/csgan/wandb/run-20211209_134616-1qwwk859/run-1qwwk859.wandb
+2021-12-09 14:00:12,411 INFO    HandlerThread:80802 [handler.py:finish():731] shutting down handler
+2021-12-09 14:00:12,412 INFO    SenderThread:80802 [sender.py:finish():1091] shutting down sender
+2021-12-09 14:00:12,413 INFO    SenderThread:80802 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-09 14:00:12,413 INFO    SenderThread:80802 [file_pusher.py:join():182] waiting for file pusher
+2021-12-09 14:00:12,417 INFO    MainThread:80802 [internal.py:handle_exit():77] Internal process exited

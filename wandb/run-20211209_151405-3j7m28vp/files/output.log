@@ -1,0 +1,67 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at mofawzy/argpt2-goodreads and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at mofawzy/argpt2-goodreads and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/8468 [00:00<?, ?it/s]Token indices sequence length is longer than the specified maximum sequence length for this model (1046 > 1024). Running this sequence through the model will result in indexing errors
+
+
+
+
+
+
+
+100%|██████████| 8468/8468 [00:17<00:00, 491.03it/s]
+100%|██████████| 8468/8468 [00:01<00:00, 7789.02it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+100%|██████████| 8468/8468 [00:02<00:00, 3915.63it/s]
+100%|██████████| 8468/8468 [00:00<00:00, 27890.93it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+
+
+
+
+100%|██████████| 8468/8468 [00:11<00:00, 715.72it/s]
+100%|██████████| 8468/8468 [00:00<00:00, 29883.79it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+
+
+
+
+100%|██████████| 8468/8468 [00:11<00:00, 726.62it/s]
+
+100%|██████████| 8468/8468 [00:00<00:00, 23339.00it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+
+
+
+
+
+100%|██████████| 8468/8468 [00:11<00:00, 726.68it/s]
+100%|██████████| 8468/8468 [00:00<00:00, 28692.39it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+100%|██████████| 8468/8468 [00:01<00:00, 5127.97it/s]
+  0%|          | 1/8468 [00:00<00:06, 1308.68it/s]
+
+100%|██████████| 8468/8468 [00:00<00:00, 18674.09it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+
+100%|██████████| 8468/8468 [00:01<00:00, 5276.30it/s]
+100%|██████████| 8468/8468 [00:00<00:00, 19335.96it/s]
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.
+  """Entry point for launching an IPython kernel.
+/home/mofawzy/anaconda3/envs/csgan/lib/python3.7/site-packages/ipykernel_launcher.py:1: FutureWarning: Passing a negative integer is deprecated in version 1.0 and will not be supported in future version. Instead, use None to not limit the column width.

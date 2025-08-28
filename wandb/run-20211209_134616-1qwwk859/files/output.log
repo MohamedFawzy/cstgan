@@ -1,0 +1,17 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at mofawzy/argpt2-goodreads and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at mofawzy/argpt2-goodreads and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/8468 [00:00<?, ?it/s]Token indices sequence length is longer than the specified maximum sequence length for this model (1045 > 1024). Running this sequence through the model will result in indexing errors
+
+
+
+
+
+
+
+
+
+100%|██████████| 8468/8468 [00:19<00:00, 444.79it/s]
+100%|██████████| 8468/8468 [00:01<00:00, 7066.70it/s]
+  0%|          | 0/6400 [00:01<?, ?it/s]
